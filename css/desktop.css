@@ -1,0 +1,76 @@
+/* -----------------------------------------------------Правило-------------------------------- */
+@media screen and (max-width:1199px) {
+    .features-box-item{
+        display: none;
+    }
+}
+/* -------------------------------для ноута------------------------------- */
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1158px;
+    }
+    .section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+.hero-title{
+        margin-bottom: 48px;
+}
+.logo-header{
+    margin-right: 76px;
+}
+.hero{
+    max-width: 1440px;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),url(../images/hero/people-office-decktop.jpg);
+     padding-top: 192px;
+     padding-bottom: 192px;
+}
+.contakt-nav{
+    display: flex;
+    align-items: center;
+}
+.current::after{
+    bottom: -28px;
+}
+.contakt-nav{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.contakt-nav-item:not(:last-child){
+    margin-bottom:0;
+}
+
+
+
+.features{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.features-title, .person, .portfolio-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.text{
+    font-weight: 400;
+}
+.features-menu{
+    width:calc((100%-72px)/4);
+}
+.features-box-item{
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
+.features-icon {
+    width: 64px;
+    height: 64px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+}
+
+
+

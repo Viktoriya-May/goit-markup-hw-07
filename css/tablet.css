@@ -3,6 +3,10 @@
         width: 768px;
         outline: 1px solid red;
     }
+    @media screen and (max-width: 1199px){
+    .container-mini{
+        width: 582px;
+            } 
 }
 @media screen and (min-width:768px){
     .mobile-menu-open{
@@ -34,7 +38,7 @@
 .hero{
     max-width: 768px;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),url(../images/hero/people-office-tablet.jpg);
+     rgba(46, 47, 66, 0.7)),url(../images/hero/people-office-decktop.jpg);
      padding-top: 108px;
      padding-bottom: 116px;
 }
@@ -79,22 +83,37 @@
     .contakt-nav-item:not(:last-child){
         margin-bottom: 4px;
     }
+    /* ----------------------------------------Секція Features------------------------------ */
     .features-menu{
-        width:calc((100%-24px)/2);
+        width:calc((100% - 24px)/ 2);
     }
-    
+   
     .features{
+        display: flex;
+        flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 72px;}
    
 .features-title, .person, .portfolio-item{
             text-align:start;} 
-    /* --------------------------------------------Модальне вікно------------------------------------ */
+
+/* -----------------------------------------Наша команда------------------------------------- */
+
+.team-menu{
+    display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 56px;
+}
+.team-item{
+    width:calc((100% - 24px)/ 2);
+}
+/* --------------------------------------------Модальне вікно------------------------------------ */
     .modal{
         width: 408px;
         min-height: 576px;
     }
-
+    
     }
 
     

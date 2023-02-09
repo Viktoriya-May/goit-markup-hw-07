@@ -1,3 +1,4 @@
+
 h1,h2, h3,h4,h5,h6,p{
     margin:0;
 }
@@ -139,6 +140,11 @@ body{
     padding-left: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
 }
 .list{
     list-style: none; 
@@ -159,7 +165,7 @@ body{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
-font-size: 36px;
+font-size: 28px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -174,7 +180,6 @@ line-height: 1.2px;
     color: var(--active-buttons-background);
 } 
 .contakt-mobil{
-    margin-top: 284px;
     margin-bottom: 48px; 
 }
 .modal-social-menu {
@@ -246,7 +251,7 @@ line-height: 1.2px;
 
 
 /* ------------------------------------------------------features--------------------------------- */
- .features-title, .person, .portfolio-item{
+ .features-title, .portfolio-item{
     color: var(--title-text-color);
     font-weight: 600;
     font-size: 36px;
@@ -272,10 +277,89 @@ line-height: 1.2px;
 .features-menu{
     width: 100%;
 } 
- 
+ /* ----------------------------------------------------Наша команда---------------------------------- */
+  .section-team{
+    background-color:#F4F4FD; 
+    margin: auto;
+}
+.section-title{
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.person{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 8px;
+}
+.team-menu{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 72px;
+width:100%;
+}
+.team-item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    }
+   
+    .flex-team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       padding-left: 16px;
+       padding-right: 16px;
+       padding-top: 32px;
+       padding-bottom: 32px;
 
+    }
+    .social-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        margin-top: 8px;
+    }
+    .social-list-item {
+        height: 40px;
+        width: 40px;
+    }
+    .social-list-link {
+        width: 100%;
+        height: 100%;
+        background-color: var(--primary-background-color); 
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        transition: background-color var(--transitionn-dur-and-func);
+    }
+    .social-list-link:is(:hover,:focus){
+        background-color: var(--active-buttons-background);
+    }
+        
+    .social-list-icon {
+        fill:#F4F4FD;
+    }
+.text-mini{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.15;
+text-align: center;
 
-
+} 
 
 
 
@@ -494,4 +578,4 @@ margin-right: 8px;
   outline:2px solid var(--active-buttons-background);
   border: none;
 }
- }
+ 

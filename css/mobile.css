@@ -4,14 +4,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero/people-office-tablet.jpg);
 }
-
-
-
-
-
-
-
+}
 @media screen and (max-width:767px) {
     .header-navigation-list{
         display: none;
@@ -19,6 +16,10 @@
     .contakt-nav{
         display: none;
     } 
-   
+    .container-mini{
+        width: 294px;
+        margin-left: auto;
+        margin-right: auto;
+    
     }
-
+}

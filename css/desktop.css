@@ -1,10 +1,12 @@
 /* -----------------------------------------------------Правило-------------------------------- */
 @media screen and (max-width:1199px) {
     .features-box-item{
+        display: none;}
+    .section-work{
         display: none;
     }
 }
-/* -------------------------------для ноута------------------------------- */
+
 @media screen and (min-width: 1200px){
     .container{
         width: 1158px;
@@ -41,9 +43,7 @@
 .contakt-nav-item:not(:last-child){
     margin-bottom:0;
 }
-
-
-
+/* -------------------------------------------- Секція Features--------------------------------- */
 .features{
     display: flex;
     flex-wrap: nowrap;
@@ -70,6 +70,79 @@
     margin-bottom: 24px;
     margin-left: 100px;
 }
+/* ---------------------------------------------------Секція наші роботи--------------------------------- */
+.section-work{
+    padding-top: 0;
+}
+.work{
+    display: flex;
+    gap: 24px;
+    width: calc((100%-48px)/3);
+}
+.section-title{
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+/* ----------------------------------------------------Наша команда---------------------------------- */
+.section-team{
+    background-color:#F4F4FD; 
+    margin: auto;
+}
+.team-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 24px;
+    width:calc((100% - 72px)/ 4);
+}
+
+.flex-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+.social-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.social-list-item {
+    height: 40px;
+    width: 40px;
+}
+.social-list-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-background-color); 
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transitionn-dur-and-func);
+}
+.social-list-link:is(:hover,:focus){
+    background-color: var(--active-buttons-background);
+}
+    
+.social-list-icon {
+    fill:#F4F4FD;
+}
+
+
+
+
 }
 
 

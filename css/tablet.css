@@ -102,8 +102,8 @@
 .team-menu{
     display: flex;
         flex-wrap: wrap;
-        width:calc((100% - 24px)/ 2);
 }
+.team-item{ width:calc((100% - 24px)/ 2);}
 /* --------------------------------------------Модальне вікно------------------------------------ */
     .modal{
         width: 408px;

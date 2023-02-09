@@ -99,9 +99,9 @@
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 24px;
-    width:calc((100% - 72px)/ 4);
+   
 }
-
+.team-item{ width:calc((100% - 72px)/ 4);}
 .flex-team{
     display: flex;
     flex-direction: column;

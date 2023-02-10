@@ -18,10 +18,9 @@
         display: none;
     } 
 }
-@media screen and (max-width: 290px){
+@media screen and (max-width: 767px){
     .container-mini{
         width: 290px;
         outline: 1px solid red;
        
             } 
-}

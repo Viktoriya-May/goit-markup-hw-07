@@ -71,7 +71,7 @@
     margin-left: 100px;
 }
 /* ---------------------------------------------------Секція наші роботи--------------------------------- */
-.section-work{
+ .section-work{
     padding-top: 0;
 }
 .work{
@@ -90,7 +90,7 @@
 }
 
 /* ----------------------------------------------------Наша команда---------------------------------- */
-.section-team{
+/* .section-team{
     background-color:#F4F4FD; 
     margin: auto;
 }
@@ -138,12 +138,12 @@
     
 .social-list-icon {
     fill:#F4F4FD;
-}
+} */
 
 
 
 /* ---------------------customer------------------------------- */
-.customers{
+/* .customers{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -153,7 +153,7 @@
 .customers-list{
     flex-wrap: nowrap;
 
-}
+} */
 
 
 

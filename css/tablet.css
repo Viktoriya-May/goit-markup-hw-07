@@ -1,19 +1,22 @@
 @media screen and (min-width: 768px) and (max-width:1199px) {
     .container{
         width: 768px;
-        outline: 1px solid red;
-
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-    @media screen and (max-width: 1199px){
-    .container-mini{
+ @media screen and  (min-width: 768px) and (max-width: 1199px){
+    .container.container-mini{
         width: 582px;
-            } 
-}
+        margin-left: auto;
+        margin-right: auto;
+    }  
+ }
 @media screen and (min-width:768px){
     .mobile-menu-open{
         display: none;
     }
+    /* -------------------------------------------------------Header------------------------------------------------- */
 .logo-header{
         margin-right: 122px;
     }
@@ -48,7 +51,7 @@
 .header-navigation-list .link-activ {
     color: var(--title-text-color);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -109,19 +112,50 @@
 }
 .team-item{ width:calc((100% - 24px)/ 2); 
 }
-/* -----------------------------------------------------customer------------------------------- */
-/* 
+/* -----------------------------------------------------customer------------------------------- */ 
 .customers-menu {
-    width:calc((100%-48px)/4);
+    width:calc((100% - 48px)/ 3);
+}
+.customers-list{
+    display: flex;
+    flex-wrap: wrap;
+   column-gap: 24px;
 }
 
 
- */
+/* -----------------------------------Footter--------------------------------------------------- */
 
+.footers-text {
+    max-width: 264px;
+    }
+    .footer-container{
+        display: flex;
+        align-items: baseline;
+        text-align: start;
+    }
+ .footer-social{
+    margin-left: 24px;
+    }
+    .footer-container{
+        display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       row-gap: 72px;
+       justify-content: center;
+       align-items: center;
+    }
 
-
-
-
+    .subscribe-form{
+        margin-top: 16px;
+    }
+     .subscribe-form-menu{
+        display: flex;
+        gap: 24px; 
+    } 
+    .subscribe-input{
+        width: 264px;
+        
+    }
 /* --------------------------------------------Модальне вікно------------------------------------ */
     /* .modal{
         width: 408px;

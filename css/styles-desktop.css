@@ -354,7 +354,7 @@ line-height: 1.16;
     color: #F4F4FD;
     line-height: 1.16;
 }
-.footers {
+.footers-text {
 color: #E7E9FC;
 margin-top: 16px;
 max-width: 264px;
@@ -401,7 +401,6 @@ color: #FFFFFF;
 }
 .subscribe-form{
     margin-top: 16px;
-    
 }
 .subscribe-title{
 font-weight: 600;

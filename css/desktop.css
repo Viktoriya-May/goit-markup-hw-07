@@ -11,7 +11,7 @@
     .container{
         width: 1158px;
     }
-    .section{
+.section{
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -71,7 +71,7 @@
     margin-left: 100px;
 }
 /* ---------------------------------------------------Секція наші роботи--------------------------------- */
- .section-work{
+.section-work{
     padding-top: 0;
 }
 .work{
@@ -90,7 +90,7 @@
 }
 
 /* ----------------------------------------------------Наша команда---------------------------------- */
- .section-team{
+.section-team{
     background-color:#F4F4FD; 
     margin: auto;
 }
@@ -138,22 +138,35 @@
     
 .social-list-icon {
     fill:#F4F4FD;
-} 
-
+}
 
 
 /* ---------------------customer------------------------------- */
-/* .customers{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .customers-menu {
-    width:calc((100%-120px)/6);
+    width:calc((100% - 120px)/ 6);
 }
 .customers-list{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
-} */
+}
+/* -----------------------------------Footter--------------------------------------------------- */
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
+.footer-social{
+    margin-left: 120px;
+}
+.footer-subscribe{
+    margin-left: 80px;
+}
+.footer-container{
+    display: flex;
+    align-items: baseline;
+flex-wrap: nowrap;
+}
+}
 
 

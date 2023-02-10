@@ -142,6 +142,16 @@
 
 
 
+/* ---------------------customer------------------------------- */
+.customers{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-menu {
+    width:calc((100%-120px)/6);
+}
+.customers-list{
+    flex-wrap: nowrap;
 
 }
 

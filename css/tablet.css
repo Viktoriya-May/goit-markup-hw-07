@@ -2,10 +2,13 @@
     .container{
         width: 768px;
         outline: 1px solid red;
+
     }
+}
     @media screen and (max-width: 1199px){
     .container-mini{
         width: 582px;
+    
             } 
 }
 @media screen and (min-width:768px){
@@ -102,8 +105,24 @@
 .team-menu{
     display: flex;
         flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 56px;
 }
-.team-item{ width:calc((100% - 24px)/ 2);}
+.team-item{ width:calc((100% - 24px)/ 2);
+}
+/* -----------------------------------------------------customer------------------------------- */
+
+.customers-menu {
+    width:calc((100%-48px)/4);
+}
+
+
+
+
+
+
+
+
 /* --------------------------------------------Модальне вікно------------------------------------ */
     .modal{
         width: 408px;
@@ -112,4 +131,3 @@
     
     }
 
-    

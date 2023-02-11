@@ -256,7 +256,10 @@ line-height: 1.2px;
         margin:auto;
         transition: background-color var(--transitionn-dur-and-func);
     }
-
+    .button-main:hover,
+    .button-main:focus {
+          background-color: var(--active-buttons-background);
+    }
 
 /* ------------------------------------------------------features--------------------------------- */
  .features-title, .portfolio-item {

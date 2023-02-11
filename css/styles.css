@@ -228,6 +228,15 @@ line-height: 1.2px;
         background-size: cover;
         margin: auto;
     }
+    @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+    .hero{{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero/people-office-mobile-2x.jpg);
+  }
+}
+}
     .button-main{
         font-family: 'Roboto';
         font-style: normal;
@@ -437,7 +446,7 @@ text-align: center;
         margin-top: 16px;
         max-width: 268px;
         font-weight: 400;
-        
+
         }
     
     .footer-social-content{

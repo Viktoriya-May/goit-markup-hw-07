@@ -11,7 +11,22 @@
         margin-left: auto;
         margin-right: auto;
     }  
+}
+    @media screen and  (min-width: 768px) and (max-width: 1199px){
+        .container.customers-container{
+            width: 582px;
+            margin-left: auto;
+            margin-right: auto;
+        }  
+        @media screen and  (min-width: 768px) {
+            .container.footer-container{
+                width: 582px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
  }
+
 @media screen and (min-width:768px){
     .mobile-menu-open{
         display: none;
@@ -90,7 +105,7 @@ url(../images/hero/people-office-decktop-2x.jpg);
         color: var(--primary-text-color);
         font-weight: 400;
         font-size: 12px;
-        line-height: 1-33;
+        line-height: 1.33;
         letter-spacing: 0.04em;
     }
     .contakt-nav-item:not(:last-child){
@@ -106,7 +121,7 @@ url(../images/hero/people-office-decktop-2x.jpg);
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 72px;}
-   
+ 
 .features-title, .person, .portfolio-item{
             text-align:start;} 
 
@@ -145,13 +160,13 @@ url(../images/hero/people-office-decktop-2x.jpg);
     margin-left: 24px;
     }
     .footer-container{
-        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
        row-gap: 72px;
        justify-content: center;
        align-items: center;
     }
+    
 
     .subscribe-form{
         margin-top: 16px;
@@ -164,11 +179,29 @@ url(../images/hero/people-office-decktop-2x.jpg);
         width: 264px;
         
     }
+
+/* ---------------------------------------PORTFOLIO------------------------------------------------ */
+.portfolio-section{
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+.buttons-portfolio{
+    padding: 12px 24px;
+}
+
+.buttons-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    margin-bottom: 64px;
+    justify-content: center;
+}
+
 /* --------------------------------------------Модальне вікно------------------------------------ */
-    /* .modal{
-        width: 408px;
-        min-height: 576px;
-    } */
-    
+.modal{
+    width: 408px;
+    padding-left: 24px;
+    padding-right: 24px;
     }
+}
 

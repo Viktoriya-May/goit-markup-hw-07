@@ -27,11 +27,14 @@
     }
     .contakt-nav{
         display: none;
-    } 
-}
+    }
+  
+   
  @media screen and (max-width: 767px){
     .container.container-mini{
         width: 290px;
         margin-left: auto;
         margin-right: auto;
             } } 
+       
+        }

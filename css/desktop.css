@@ -5,6 +5,9 @@
     .section-work{
         display: none;
     }
+    .text-overlay{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -40,6 +43,14 @@
 }
 .contakt-nav-item:not(:last-child){
     margin-bottom:0;
+}
+.contakt-phone, .contakt-mail {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
 }
 /* -------------------------------------------- Секція Features--------------------------------- */
 .features{
@@ -163,8 +174,14 @@
 .footer-container{
     display: flex;
     align-items: baseline;
-flex-wrap: nowrap;
-}
+    flex-direction:row;
 }
 
 
+/* ---------------------------------------PORTFOLIO------------------------------------------------ */
+
+.buttons-list{
+    margin-bottom: 72px;
+}
+
+}

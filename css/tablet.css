@@ -159,15 +159,16 @@ url(../images/hero/people-office-decktop-2x.jpg);
  .footer-social{
     margin-left: 24px;
     }
-    .footer-container{
-       flex-direction: row;
-       flex-wrap: wrap;
-       row-gap: 72px;
-       justify-content: center;
-       align-items: center;
-    }
-    
 
+     .footer-container{
+        display: flex;
+       flex-direction: row;
+       row-gap: 72px;
+       flex-wrap: wrap;
+       justify-content:start;
+       align-items: center;
+       text-align: start;
+    }
     .subscribe-form{
         margin-top: 16px;
     }
